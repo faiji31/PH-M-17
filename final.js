@@ -22,16 +22,16 @@ var lastDay = 11 ;
 
 for (var i=1;i<=lastDay;i++){
     if (i%3===0){
-        console.log(i +"medicine");
+        console.log(i + " medicine");
     }else{
-        console.log(i +"rest");
+        console.log(i + " rest");
     }
 }
 
 /** Problem 04 - (Delete / Store) */
 var fileName= "pdfData.jpg";
 //write your code here
-if(fileName.startsWith("#")||fileName.endsWith(".jpg")||fileName.endsWith(".png")){
+if(fileName.startsWith("#")||fileName.endsWith(".pdf")||fileName.endsWith(".docx")){
     console.log("Store");
 }else{
     console.log("Delete");
